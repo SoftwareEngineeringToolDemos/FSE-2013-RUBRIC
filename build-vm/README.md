@@ -1,15 +1,19 @@
-#build-vm
+# FSE-2013-RUBRIC
 
 
-This directory contains the files required for Vagrant to create a Virtual Machine containing RUBRIC.
-If you already have Vagrant and rsync installed on your machine, you can download the RUBRIC_Vagrant directory, open the directory in the command prompt, and use "vagrant up" to start the machine.
+This repository contains information related to the tool RUBRIC presented at Foundations of Software Engineering, 2013. The tool was originally presented in [this paper](http://dl.acm.org/citation.cfm?doid=2491411.2494591).
 
-Currently this page is still under development. Of note:
-*A user may need to open virtualbox separately to view the machine
-*A user may need to login to the machine (username and password are "Vagrant")
-*A user may need to start the GUI manually using the command "startxfce4 &". This will be apparent after the user has logged in when the desktop does not appear.
+This repository _is not_ the original repository for this tool. Here are some links to the original project:
+* [The Original Project Page for RUBRIC](https://sites.google.com/site/rubricnlp/)
+* [A more recent version of the project, renamed RETA, that is compatible with JDK1.8 and Gate 8.1](https://sites.google.com/site/retanlp/)
+* [A Video of the Tool](https://youtu.be/5zIn8scJgRs)
+* RUBRIC (and RETA) is a plugin to the Natural Language Processing software GATE, which can be found [here](https://gate.ac.uk)
 
-Modifications since the previous (unpublished) version of this VM include
-*Using xfce instead of Unity as the interface. This is a more lightweight interface and was easier to include in a script.
-*Using open-jdk rather than Oracle JDK. This was easier to script.
-The GATE tool for which RUBRIC is a plugin is also installed on this machine. Initial tests indicate that it still functions correctly with the changes listed above.
+
+In this repository, for RUBRIC you will find:
+* :x: The Source Code (not available)
+* :white_check_mark: [The Original Tool - RUBRIC](https://github.com/SoftwareEngineeringToolDemos/FSE-2013-RUBRIC/tree/master/Executables) (available)
+* :white_check_mark: [A slightly modified version of the original tool](tbd1) [Sarah Elder](https://github.com/seelder) got working (available)
+
+
+This repository was constructed by [Sumeet Agarwal](https://github.com/sumeet29), [Vineela Boddula](https://github.com/boddulavineela), [Sarah Elder](https://github.com/seelder),  [Shrenuj Gandhi](https://github.com/shrenujgandhi), and [Alex Valkovsky](https://github.com/avalkovsky) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to [Chetan Arora](http://wwwen.uni.lu/snt/people/chetan_arora) et. al, for their help in establishing this repository. 
