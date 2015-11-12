@@ -31,7 +31,7 @@ This directory was compiled using a variety of resources including those below:
 This directory is still under development. Of note:
 * A user may need to open virtualbox separately to view the machine
 * A user may need to login to the machine (username and password are "Vagrant")
-* If the user has logged in and the blue desktop does not appear, the user may need to start the GUI manually using the command "startxfce4 &".
+* If the user has logged in and the blue desktop does not appear, the user may need to start the GUI manually using the command "startxfce4 &".  See Issue #10
 
 
 Modifications to the Virtual Machine since the last (unpublished) version include:
