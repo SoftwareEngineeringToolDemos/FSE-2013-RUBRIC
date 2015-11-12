@@ -9,7 +9,7 @@ This directory is still under development. Of note:
 * If the user has logged in and the blue desktop does not appear, the user may need to start the GUI manually using the command "startxfce4 &".
 
 
-In this repository, for RUBRIC you will find:
+Modifications to the Virtual Machine since the last (unpublished) version include:
 * Using xfce instead of Unity as the interface. This is a more lightweight interface and was easier to include in a script.
 * Using open-jdk rather than Oracle JDK. This was easier to script. 
 
