@@ -2,23 +2,28 @@
 
 
 ##Contents
-This directory contains the files required for Vagrant to create a Virtual Machine containing RUBRIC. If you already have Vagrant and VirtualBox installed on your machine, you can download the RUBRIC_Vagrant directory, type "vagrant up" in a command prompt from the downloaded directory to start the machine.
+This directory contains the files required for Vagrant to create a Virtual Machine containing RUBRIC.
 
 
 ##Prerequisites
-Use of these files requires the following software to be installed on the host machine
+The following software should be installed on the host machine
 * [VirtualBox] (https://www.virtualbox.org/)
 * [Vagrant] (https://www.vagrantup.com/)
+
+
+##Instructions
+1. Download the RUBRIC_Vagrant directory from this repository
+2. Enter the command "vagrant up" (using command prompt or similar) from the RUBRIC_Vagrant directory
 
 
 ##Resources
 This directory was compiled using a variety of resources including those below:
 * Open-JDK
-* The GATE framework installed on the machine can be found [here]: (https://gate.ac.uk)
+* The GATE framework installed on the machine can be found [here] (https://gate.ac.uk)
 
 
 ##References
-* [Bug-fix for base box] (http://forums.debian.net/viewtopic.php?f=10&t=101659_
+* [Bug-fix for base box] (http://forums.debian.net/viewtopic.php?f=10&t=101659)
 * [Examples of how to us a GUI in vagrant] (http://stackoverflow.com/questions/18878117/using-vagrant-to-run-virtual-machines-with-desktop-environment)
 
 
