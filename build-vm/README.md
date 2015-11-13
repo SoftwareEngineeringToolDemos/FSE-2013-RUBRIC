@@ -12,8 +12,8 @@ The following software should be installed on the host machine
 
 
 ##Instructions
-1. Download the RUBRIC_Vagrant directory from this repository
-2. Enter the command "vagrant up" (using command prompt or similar) from the RUBRIC_Vagrant directory
+1. Download the build-vm from this repository
+2. Enter the command "vagrant up" (using command prompt or similar) from the build-vm directory
 
 
 ##Resources
@@ -25,6 +25,7 @@ This directory was compiled using a variety of resources including those below:
 ##References
 * [Bug-fix for base box] (http://forums.debian.net/viewtopic.php?f=10&t=101659)
 * [Examples of how to us a GUI in vagrant] (http://stackoverflow.com/questions/18878117/using-vagrant-to-run-virtual-machines-with-desktop-environment)
+* [Additional information on Ubuntu GUIs] (http://askubuntu.com/questions/300799/does-ubuntu-12-04-lts-32-bit-have-graphic-user-interface/300805#300805)
 
 
 ##Construction Notes:
