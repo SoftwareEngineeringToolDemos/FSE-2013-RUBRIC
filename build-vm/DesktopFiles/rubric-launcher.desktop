@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=0.1
+Name=RUBRIC
+Comment=This runs the RUBRIC plugin to the gate framework
+Exec=java -Dgate.plugins.home="/usr/local/RUBRIC/gate-7.1-build4485-BIN/plugins/" -jar /usr/local/RUBRIC/rubric.jar "/usr/local/RUBRIC/gate-7.1-build4485-BIN"
+Icon=/usr/local/RUBRIC/gate-7.1-build4485-BIN/bin/splash.png
+Terminal=false
+Type=Application
+Categories=Utility;Application;

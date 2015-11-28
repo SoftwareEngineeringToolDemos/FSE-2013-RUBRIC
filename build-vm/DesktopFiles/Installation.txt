@@ -1,0 +1,35 @@
+The following provides guidance for installing and running RUBRIC on ubuntu. This is based on the information provided by the tool's authors at https://sites.google.com/site/rubricnlp/, as well as the information provided at https://gate.ac.uk/download/
+
+
+
+*Note: RUBRIC requires JDK 1.7 and GATE 7.X. At the time of the creation of this VM, more information on a newer version of the software that according to the authors is compatible with JDK 1.8 and GATE 8.X may be found at https://sites.google.com/site/retanlp/
+
+
+
+
+Prerequisites: JDK 1.7 should be installed on the machine
+
+
+
+Installing GATE:
+
+1) Download the Generic installer for GATE 7.X at https://gate.ac.uk/download/
+2) 
+Open a terminal and run the command: java -jar <gatedownload>.jar. 
+This will launch the installation package for GATE. 
+3) Follow the prompts. As the software is being installed, note the directory where the program is installed since this will be important for running RUBRIC. We will refer to this location as "gate directory location".
+
+
+
+Installing RUBRIC:
+1) 
+Download the jar file from RUBRIC's website: https://sites.google.com/site/rubricnlp/
+2) Save the file to a location that can easily be accessed. We will refer to this as "rubric file location".
+
+
+
+Running RUBRIC:
+
+1) From any location, run the following command:
+java -Dgate.plugins.home="<gate directory location>/GATE_Developer_7.1/plugins/" -jar <rubric file location>/rubric.jar "<gate directory location>/GATE_Developer_7.1"
+

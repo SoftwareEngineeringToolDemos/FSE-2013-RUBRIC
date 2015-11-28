@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=0.1
+Name=YouTube Demo (VM)
+Comment=Link to a Demo of the tool as used within this Virtual Machine
+Icon=/usr/share/icons/gnome/48x48/emblems/emblem-web.png
+Terminal=false
+Type=Link
+URL=https://youtu.be/hVY97HVrDJY
