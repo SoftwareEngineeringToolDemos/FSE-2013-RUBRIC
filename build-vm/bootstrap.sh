@@ -3,9 +3,13 @@
 apt-get update
 
 #Remove unnecessary software, pulled from a variety of sources including http://askubuntu.com/questions/32228/how-can-i-remove-all-default-installed-games, http://askubuntu.com/questions/231562/what-is-the-difference-between-apt-get-purge-and-apt-get-remove
-apt-get remove --purge -y unity-webapps-common gnome-mahjongg gnomine gnome-sudoku aisleriot libreoffice* 
+apt-get remove --purge -y unity-webapps-common gnome-mahjongg gnomine gnome-sudoku aisleriot deja-dup* libreoffice* 
 apt-get clean -y
 apt-get autoremove -y
+
+#Disable screen lock, based on http://askubuntu.com/questions/379090/how-to-disable-screen-lock-timeout-from-a-script
+dconf write /org/gnome/desktop/screensaver/idle-activation-enabled false
+dconf write /org/gnome/desktop/screensaver/lock-enabled false
 
 #Install java 7 and tools needed for configuration (git, wget, unzip)s
 apt-get install -y openjdk-7-jdk git wget unzip
