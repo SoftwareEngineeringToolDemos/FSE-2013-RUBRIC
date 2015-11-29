@@ -3,6 +3,9 @@
 
 Vagrant.configure(2) do |config|
   config.vm.box = "gtfierro/computational_analytics_32bit"
+  config.vm.provider "virtualbox" do |vb|
+     vb.name = "chowan-seelder-RUBRIC"
+  end
   config.vm.provision :shell, path: "bootstrap.sh"
 
 end

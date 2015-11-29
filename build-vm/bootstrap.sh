@@ -3,6 +3,7 @@
 apt-get update
 
 #Remove unnecessary software, pulled from a variety of sources including http://askubuntu.com/questions/32228/how-can-i-remove-all-default-installed-games, http://askubuntu.com/questions/231562/what-is-the-difference-between-apt-get-purge-and-apt-get-remove
+rm -f /usr/share/applications/ubuntu-software-center.desktop
 apt-get remove --purge -y unity-webapps-common gnome-mahjongg gnomine gnome-sudoku aisleriot deja-dup* libreoffice* 
 apt-get clean -y
 apt-get autoremove -y
