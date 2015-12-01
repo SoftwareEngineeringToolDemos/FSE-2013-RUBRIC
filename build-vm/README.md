@@ -21,5 +21,5 @@ The following software should be installed on the host machine
 ##Resources
 This directory was compiled using a variety of resources including those below:
 * Open-JDK
-* The GATE framework installed on the machine can be found [here] (https://gate.ac.uk)
-* The RUBRIC plugin which can be found [here] (https://sites.google.com/site/rubricnlp/)
+* The GATE framework, which can be found [here] (https://gate.ac.uk)
+* The RUBRIC plugin, which can be found [here] (https://sites.google.com/site/rubricnlp/)

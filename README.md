@@ -13,7 +13,7 @@ This repository _is not_ the original repository for this tool. Here are some li
 In this repository, for RUBRIC you will find:
 * :x: The Source Code (not available)
 * :white_check_mark: [The Original Tool - RUBRIC](https://github.com/SoftwareEngineeringToolDemos/FSE-2013-RUBRIC/tree/master/Executables) (available)
-* :white_check_mark: [A slightly modified version of the original tool](tbd1) [Sarah Elder](https://github.com/seelder) got working (available)
+* :white_check_mark: [A slightly modified version of the original tool](https://drive.google.com/open?id=0B_F7TsAouKJaTmJTYVFJNVdrZzg) [Sarah Elder](https://github.com/seelder) got working (available)
 
 
 This repository was constructed by [Sumeet Agarwal](https://github.com/sumeet29), [Vineela Boddula](https://github.com/boddulavineela), [Sarah Elder](https://github.com/seelder),  [Shrenuj Gandhi](https://github.com/shrenujgandhi), and [Alex Valkovsky](https://github.com/avalkovsky) under the supervision of [Emerson Murphy-Hill](https://github.com/CaptainEmerson). Thanks to [Chetan Arora](http://wwwen.uni.lu/snt/people/chetan_arora) et. al, for their help in establishing this repository. 
